@@ -9,7 +9,8 @@ class Project
     @backers = []
   end
 
-  def bacl_project(Project)
+  def back_project(Project)
     @@backed_projects << Project
+  end
 
 end
