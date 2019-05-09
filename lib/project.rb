@@ -1,6 +1,6 @@
 class Project
 
-  @@backed_projects = []
+
 
   attr_reader :title, :backers
 
@@ -9,8 +9,8 @@ class Project
     @backers = []
   end
 
-  def self.back_project(project)
-    @@backed_projects << project
+  def add_backer(backer)
+    @backers << backer
   end
 
 end
